@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Blackjack</title>
+</head>
+<body>
+    
+    <header class="header">    
+        Black Jack
+    </header>
+
+    <div class="row mt-2">
+        <div id="buttons" class="col text-center"> 
+                
+                <button id="btn1" class="btn btn-danger">New game</button>
+                <button id="btn2" class="btn btn-primary">ask for letter</button>
+                <button id="btn3" class="btn btn-primary">Stop</button>
+
+        </div>
+    </div>
+    
+    <!-- Tu turno -->
+    
+    <div class="row container">
+        <div class="col">
+
+            <h1 id="gaming">Gamer 1 - <small id="change">0</small></h1>
+
+            <div id="gamer-letters">
+                
+                <!-- <img class="letter" src="assets/cartas/2C.png" alt="">
+                <img class="letter" src="assets/cartas/2C.png" alt=""> -->
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+ <!-- Turno de el pc -->
+    
+    <div class="row container mt-2">
+        
+        <div class="col">
+
+            <h1>Pc 2 - <small id="change2" >0</small></h1>
+
+            <div id="pcLetters">
+                
+                <!-- <img class="letter" src="assets/cartas/3C.png" alt=""> -->
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="assets/js/game.js"></script>
+
+</body>
+</html>

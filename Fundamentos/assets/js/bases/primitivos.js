@@ -4,7 +4,7 @@ console.log(name);
 name = 'Alvaro';
 console.log(name);
 
-name = 'Maria';
+name = "Maria";
 name = `Linda`;
 
 
